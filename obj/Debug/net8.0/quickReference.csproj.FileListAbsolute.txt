@@ -1,0 +1,14 @@
+/Users/airmig/Documents/dotNET/quickReference/bin/Debug/net8.0/quickReference
+/Users/airmig/Documents/dotNET/quickReference/bin/Debug/net8.0/quickReference.deps.json
+/Users/airmig/Documents/dotNET/quickReference/bin/Debug/net8.0/quickReference.runtimeconfig.json
+/Users/airmig/Documents/dotNET/quickReference/bin/Debug/net8.0/quickReference.dll
+/Users/airmig/Documents/dotNET/quickReference/bin/Debug/net8.0/quickReference.pdb
+/Users/airmig/Documents/dotNET/quickReference/obj/Debug/net8.0/quickReference.GeneratedMSBuildEditorConfig.editorconfig
+/Users/airmig/Documents/dotNET/quickReference/obj/Debug/net8.0/quickReference.AssemblyInfoInputs.cache
+/Users/airmig/Documents/dotNET/quickReference/obj/Debug/net8.0/quickReference.AssemblyInfo.cs
+/Users/airmig/Documents/dotNET/quickReference/obj/Debug/net8.0/quickReference.csproj.CoreCompileInputs.cache
+/Users/airmig/Documents/dotNET/quickReference/obj/Debug/net8.0/quickReference.dll
+/Users/airmig/Documents/dotNET/quickReference/obj/Debug/net8.0/refint/quickReference.dll
+/Users/airmig/Documents/dotNET/quickReference/obj/Debug/net8.0/quickReference.pdb
+/Users/airmig/Documents/dotNET/quickReference/obj/Debug/net8.0/quickReference.genruntimeconfig.cache
+/Users/airmig/Documents/dotNET/quickReference/obj/Debug/net8.0/ref/quickReference.dll
