@@ -134,12 +134,29 @@ PrintMessage printMessage = delegate(string msg){
 
 printMessage("Anonymous method");
 
+//expression lambda
+int[] numbers = [1,2,3,3,4,3,4];
+int count = numbers.Count(x => x == 3);
+Console.WriteLine("Total count:" + count);
+
+//statement lambda
+List<int> numbersList = [1,2,3,3,4,3,4];
+count = numbersList.Count(x => {return x ==3;});
+Console.WriteLine("Total count:" + count);
+
+//expression tree, parts: body, parameters, nodetype, type
+Func<string, string, string> stringJoins = (str1, str2) => string.Concat(str1, str2);
+Expression<Func<string,string,string>> stringJoinExpression = (str1, str2) => string.Concat(str1, str2);
+var func = stringJoinExpression.Compile();
+var result = func("Hello", "World");
+Console.WriteLine(result);
+result = stringJoinExpression.Compile()("PartA", "PartB");
+Console.WriteLine(result);
 
 static void eventAction(object sender, EventArgs e){
     Console.WriteLine("Event processes");
 }
 delegate void PrintMessage(string msg);
-
 
 //delegate
 delegate void SampleDelegate();
